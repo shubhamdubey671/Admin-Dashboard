@@ -1,0 +1,20 @@
+.button {
+    background-color: #ffffff; /* white background color */
+    color: #000000; /* black text color */
+    border: 2px solid #ffffff; /* white border */
+    padding: 10px 20px; /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    font-weight: bold; /* make text bold */
+    border-radius: 5px; /* add some border radius for rounded corners */
+    cursor: pointer; /* change cursor to pointer on hover */
+    cursor: pointer; /* change cursor to pointer on hover */
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease; /* smooth transition effect */
+}
+
+.button:hover {
+    background-color: #000000; /* black background color on hover */
+    color: #ffffff; /* white text color on hover */
+    border-color: #000000; /* black border color on hover */
+    transition-delay: 0.2s;
+
+}
